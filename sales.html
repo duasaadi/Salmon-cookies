@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="location">
+        <h1><a href="index.html">Home page </a></h1>
+    </div>
+    
+    <form id="locationForm">
+        <fieldset>
+            <legend>Add Branch</legend>
+            <div><label for="name">Name of Branch</label>
+                <input type="text" id="name" required></div>
+                <div><label for="max">Maximum Customer Number</label>
+                    <input type="number" id="max" required></div>
+            <div><label for="min">Minimum Customer Number</label>
+                <input type="number" id="min" required></div>
+                <div><label for="average_cookies_per_customer">average_cookies_per_customer</label>
+                <input type="number"step="0.1"  id="average_cookies_per_customer" required></div>
+            <input type="submit">
+        </fieldset>
+    </form>
+
+    <div class="gallery">
+        <img src="img/chinook.jpg" width="800" height="500">
+        <div class="desc">Our Logo</div>
+    </div>
+    
+    <div class="gallery">
+        <img src="img/fish.jpg" alt="Forest" width="800" height="500">
+        <div class="desc">Expectations of cookies shape</div>
+    </div>
+    
+    <div class="gallery">
+        <img src="img/frosted-cookie.jpg" alt="Northern Lights" width="800" height="500">
+        <div class="desc">The Hard Reality</div>
+    </div>
+    
+    <div class="gallery">
+        <img src="img/shirt.jpg" alt="Mountains" width="600" height="400">
+        <div class="desc">Our Uniform</div>
+    </div>
+    
+    <script src="js/app.js"></script>
+</body>
+
+</html>
